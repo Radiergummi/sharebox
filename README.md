@@ -17,12 +17,9 @@ That's exactly what I experienced. After a lot of frustration and glancing at We
  - **Download tickets:** On visiting a landing page, a ticket is generated. This prevents direct links to your files.
  - **Customize the backend:** The Sharebox lets you upload your own logo and primary colour which are also available in your templates.
 
-**You can view a bunch of screenshots here: https://imgur.com/a/5jVfx2U** 
-   ![Settings](https://i.imgur.com/ZKWLCfj.png)
-   
 ## Screenshots
-  <img src="./storage/app/public/logo.png" width="100" height="100">
-
+**You can view a bunch of screenshots here: https://imgur.com/a/5jVfx2U** 
+   
 ## Installation
 To install Sharebox, clone this repository:
 
