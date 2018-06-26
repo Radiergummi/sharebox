@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./storage/app/public/logo.png" width="50" height="50">
+</p>
+
 # Sharebox
 > A simple webapp to enable sharing files from an SFTP server via links. Perfect for agencies.
 
