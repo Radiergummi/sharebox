@@ -13,6 +13,7 @@ use Webpatser\Uuid\Uuid;
  * @property string        $token
  * @property int           $download_id
  * @property boolean       $redeemed
+ * @property \DateTime     $created_at
  * @property \App\Download $download
  * @method static \Illuminate\Database\Query\Builder where(string $column, $value)
  * @package App

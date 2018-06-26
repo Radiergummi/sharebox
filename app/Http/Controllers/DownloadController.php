@@ -332,6 +332,13 @@ class DownloadController extends Controller
             return redirect()->route('downloads.landing', [$download->uuid])->with('error', 'Ticket redeemed');
         }
 
+        // check password
+        if ( ! is_null($download->password)) {
+            if ( ! Hash::check($request->header('authorization'), $download->password)) {
+                return redirect()->route('downloads.landing', [$download->uuid])->with('error', 'Wrong password');
+            }
+        }
+
         /** @var \League\Flysystem\Filesystem $fs */
         /** @noinspection PhpUndefinedMethodInspection */
         $fs = Storage::disk('remote')->getDriver();
