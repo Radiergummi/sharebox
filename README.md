@@ -8,10 +8,16 @@ That's exactly what I experienced. After a lot of frustration and glancing at We
 ## How it works / Features
  - **Stream large files:** The Sharebox connects to your (S)FTP server internally and streams files to clients from there. That way, it can easily transfer huge files - I've had no problems with a 200GB archive, for example.
  - **Choose files using a file explorer:** No copy-pasting file paths anymore. On creating a share, the app will present you a file explorer to choose your file on the remote FTP server.
+   ![File explorer](https://i.imgur.com/O1wUpUD.png)
+ 
  - **Customize download pages:** You can create reusable templates for downloads that control the entire page displayed, period. Customize your download pages into every detail and for every occasion, or just use the beautiful default template.
+   ![Template editor](https://i.imgur.com/Z06ihRW.png)
  - **Expire or password-protect shares:** For every share created, you can optionally set an expiration date or a password to make sure it only reaches the intended recipient.
+   ![Expiration](https://i.imgur.com/c4KuzKC.png)
+ 
  - **Download tickets:** On visiting a landing page, a ticket is generated. This prevents direct links to your files.
  - **Customize the backend:** The Sharebox lets you upload your own logo and primary colour which are also available in your templates.
+   ![Settings](https://i.imgur.com/ZKWLCfj.png)
 
 ## Installation
 To install Sharebox, clone this repository:
