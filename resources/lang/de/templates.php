@@ -1,0 +1,32 @@
+<?php
+
+return [
+    'template'                     => 'Template',
+    'templates'                    => 'Templates',
+    'templates_count'              => 'Noch keine Templates|[1] Ein Template|[2] Zwei Templates|[3] Drei Templates|[4,*] :count Templates',
+    'delete_default_template_info' => 'Standardtemplates können nicht gelöscht werden',
+    'description'                  => 'Beschreibung',
+    'no_description'               => 'Noch keine Beschreibung für dieses Template verfügbar',
+    'html_head'                    => 'Code im HTML-Head',
+    'html_body'                    => 'Code im HTML-Body',
+    'html_footer'                  => 'Code am Ende des HTML-Body',
+    'html_head_help'               => 'Dieser Abschnitt sollte verwendet werden, um eigene script- oder link-Tags zu zusätzlichen Ressourcen einzubinden.',
+    'html_footer_help'             => 'Dieser Abschnitt sollte verwendet werden, um eigene script- oder link-Tags zu zusätzlichen Ressourcen einzubinden.',
+    'no_head'                      => 'Noch kein HTML-Head-Code für dieses Template verfügbar',
+    'no_body'                      => 'Noch kein HTML-Body-Code für dieses Template verfügbar',
+    'no_footer'                    => 'Noch kein HTML-Footer-Code für dieses Template verfügbar',
+    'html_body_help'               => 'Dieser Abschnitt muss für den eigentlichen HTML-Inhalt des Templates verwendet werden.',
+    'edit_template'                => ':name bearbeiten',
+    'edit_template_help'           => 'Hier kann das Template bearbeitet werden. <em>Name</em> und <em>Beschreibung</em> dienen dabei vor allem der Übersichtlichkeit; die <em>Sprache</em> wird neben der Anzeige in der Verwaltungsoberfläche auch verwendet, um das <code>lang</code>-Attribut des HTML-Elements zu setzen (also u.a. von Browsern dazu verwendet, die Darstellung für die angegebene Sprache zu optimieren).<br>Die drei Textfelder für Code im <em>HTML-Head</em>, <em>HTML-Body</em> und <em>HTML-Footer</em> können dagegen dazu verwendet werden, den tatsächlichen Code des Templates anzupassen; hier stehen auch einige Variablen zur Verfügung. Siehe dazu das <a href=":help">Hilfe-Dokument</a>.',
+    'description_help'             => 'Die Beschreibung kann genutzt werden, um Notizen über die Verwendung zu hinterlegen.',
+    'name'                         => 'Name',
+    'name_help'                    => 'Das Template sollte einen eindeutigen Namen haben.',
+    'edit_default_template'        => 'Standardtemplates können nicht umbenannt werden',
+    'default_template_locked'      => 'Standardtemplates sind geschützt',
+    'create_template'              => 'Template hinzufügen',
+    'language'                     => 'Sprache',
+    'language_help'                => 'Die Sprache dieses Templates. Wird auch für das lang-Attribut des html-Elements genutzt.',
+    'downloads_using'              => '{0} Keine Freigaben nutzen dieses Template|[1] Eine Freigabe mit diesem Template|[2] Zwei Freigaben mit diesem Template|[3] Drei Freigaben mit diesem Template |[4,*] :count Freigaben mit diesem Template',
+    'x_more'                       => '[0] …und keine weiteren|[1] …und ein weiteres|[2] …und zwei weitere|[3] …und drei weitere|[4,*] …und :count weitere',
+    'preview'                      => 'Vorschau'
+];

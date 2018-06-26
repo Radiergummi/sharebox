@@ -1,0 +1,32 @@
+<?php
+
+return [
+    'template'                     => 'Template',
+    'templates'                    => 'Templates',
+    'templates_count'              => 'No templates yet|[1] One template|[2] Two templates|[3] Three templates|[4,*] :count templates',
+    'delete_default_template_info' => 'Default templates can\'t be deleted',
+    'description'                  => 'Description',
+    'no_description'               => 'There is no description for this template yet.',
+    'html_head'                    => 'HTML head code',
+    'html_body'                    => 'HTML body code',
+    'html_footer'                  => 'Code at the end of the HTML body',
+    'html_head_help'               => 'This section should be used to include custom scripts or stylehseets. You can also insert meta tags like title.',
+    'html_footer_help'             => 'This section should be used to include custom scripts or stylehseets.',
+    'no_head'                      => 'There is no HTML head code available for this template yet',
+    'no_body'                      => 'There is no HTML body code available for this template yet',
+    'no_footer'                    => 'There is no HTML footer code available for this template yet',
+    'html_body_help'               => 'This section must contain the actual page content HTML.',
+    'edit_template'                => 'edit :name',
+    'edit_template_help'           => 'You can edit the template on this page. <em>Name</em> and <em>Description</em> help organizing templates; The <em>Language</em> will not only be used for display in the backend, but also to set the <code>lang</code> attribute of the HTML element (which is used by browsers to optimize pages for the specific language).<br>The three text areas for code in the  <em>HTML head</em>, <em>HTML body</em> and <em>HTML footer</em> can be used to modify the actual landing page content; there are several variables available here. Details can be found in the <a href=":help">User manual</a>.',
+    'description_help'             => 'The description should be used to leave notes on the purpose of this template.',
+    'name'                         => 'Name',
+    'name_help'                    => 'The name should be unique.',
+    'edit_default_template'        => 'Default templates can\'t be renamed.',
+    'default_template_locked'      => 'Default templates are protected',
+    'create_template'              => 'Create template',
+    'language'                     => 'Language',
+    'language_help'                => 'The language of this template. Is also being used for the lang attribute of the html element.',
+    'downloads_using'              => '{0} No shares use this template|[1] One share uses this template|[2] Two shares use this template|[3] Three shares use this template |[4,*] :count use this template',
+    'x_more'                       => '[0] …and no more|[1] …and one more|[2] …and two more|[3] …and three more|[4,*] …and :count more',
+    'preview'                      => 'Preview'
+];
